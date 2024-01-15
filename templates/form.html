@@ -1,0 +1,128 @@
+<html>
+<body>
+  <h1 > Thyroid Disease Prediction Form, Please fill and submit </h1>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" placeholder="Enter Age (int)">
+    </div>
+
+    <div class="form-group">
+        <label for="TSH">TSH:</label>
+        <input type="text" id="TSH" name="TSH" placeholder="Enter TSH  (float)">
+    </div>
+
+    <div class="form-group">  
+        <label for="table">T3:</label>
+        <input type="text" id="T3" name="T3" placeholder="Enter T3  (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="TT4">TT4:</label>
+        <input type="text" id="TT4" name="TT4" placeholder="Enter TT4  (int)">
+    </div>
+  
+    <div class="form-group">
+        <label for="T4U">T4U:</label>
+        <input type="text" id="T4U" name="T4U" placeholder="Enter T4U  (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="sex">Sex:</label>
+        <input type="text" id="sex" name="sex" placeholder="Enter sex  (str)">
+    </div>   
+  <div class="form-group">
+      <label for="on_thyroxine">On_thyroxine:</label>
+      <input type="text" id="on_thyroxine" name="on_thyroxine" placeholder="Enter onThyroxine  (str)">
+  </div>
+  <div class="form-group">
+    <label for="query_on_thyroxine">Query_on_thyroxine:</label>
+    <input type="text" id="query_on_thyroxine" name="query_on_thyroxine" placeholder="Enter QOnThyroxine  (str)">
+</div>
+<div class="form-group">
+  <label for="on_antithyroid_medication">On_antithyroid_medication:</label>
+  <input type="text" id="on_antithyroid_medication" name="on_antithyroid_medication" placeholder="Enter AntithyrodMedn (str)">
+</div>
+<div class="form-group">
+  <label for="sick">Sick:</label>
+  <input type="text" id="sick" name="sick" placeholder="Enter sick  (str)">
+</div><div class="form-group">
+  <label for="pregnant">Pregnant:</label>
+  <input type="text" id="pregnant" name="pregnant" placeholder="Enter pregnant  (str)">
+</div>
+
+</div><div class="form-group">
+  <label for="thyroid_surgery">Thyroid_surgery:</label>
+  <input type="text" id="thyroid_surgery" name="thyroid_surgery" placeholder="Enter thyroidSurgery  (str)">
+</div>
+
+</div><div class="form-group">
+  <label for="I131_treatment">I131_treatment:</label>
+  <input type="text" id="I131_treatment" name="I131_treatment" placeholder="Enter I131Treatment  (str)">
+</div>
+
+</div><div class="form-group">
+  <label for="query_hypothyroid">Query_hypothyroid:</label>
+  <input type="text" id="query_hypothyroid" name="query_hypothyroid" placeholder="Enter QHypothyroid  (str)">
+</div>
+</div><div class="form-group">
+  <label for="query_hyperthyroid">Query_hyperthyroid:</label>
+  <input type="text" id="query_hyperthyroid" name="query_hyperthyroid" placeholder="Enter QHyperthyroid  (str)">
+</div>
+
+</div><div class="form-group">
+  <label for="lithium">Lithium:</label>
+  <input type="text" id="lithium" name="lithium" placeholder="Enter lithium  (str)">
+</div>
+
+
+</div><div class="form-group">
+  <label for="goitre">Goitre:</label>
+  <input type="text" id="goitre" name="goitre" placeholder="Enter goitre  (str)">
+</div>
+
+</div><div class="form-group">
+  <label for="tumor">Tumor:</label>
+  <input type="text" id="tumor" name="tumor" placeholder="Enter tumor  (str)">
+</div>
+
+</div><div class="form-group">
+  <label for="hypopituitary">Hypopituitary:</label>
+  <input type="text" id="hypopituitary" name="hypopituitary" placeholder="Enter hypopituitary  (str)">
+</div>
+
+</div><div class="form-group">
+  <label for="psych">Psych:</label>
+  <input type="text" id="psych" name="psych" placeholder="Enter psych  (str)">
+</div>
+
+</div><div class="form-group">
+  <label for="TSH_measured">TSH_measured:</label>
+  <input type="text" id="TSH_measured" name="TSH_measured" placeholder="Enter TSH_measured  (str)">
+</div>
+
+</div><div class="form-group">
+  <label for="T3_measured">T3_measured:</label>
+  <input type="text" id="T3_measured" name="T3_measured" placeholder="Enter T3_measured  (str)">
+</div>
+
+</div><div class="form-group">
+  <label for="TT4_measured">TT4_measured:</label>
+  <input type="text" id="TT4_measured" name="TT4_measured" placeholder="Enter TT4_measured  (str)">
+</div>
+
+</div><div class="form-group">
+  <label for="T4U_measured">T4U_measured:</label>
+  <input type="text" id="T4U_measured" name="T4U_measured" placeholder="Enter T4U_measured  (str)">
+</div>
+
+
+
+
+
+
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
