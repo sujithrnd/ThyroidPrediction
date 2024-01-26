@@ -20,4 +20,12 @@ python application.py
 
 Flask url http://127.0.0.1:9999/
 
+**Design Training Validation**
+
+!TRaining Validation (https://github.com/sujithrnd/ThyroidPrediction/blob/main/trainingValidation.png)
+
+**Design deployment**
+![Architecture](https://github.com/sujithrnd/ThyroidPrediction/assets/16643681/e7911203-82ab-436e-944d-78ce1b92b5e5)
+
+
 
