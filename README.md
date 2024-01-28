@@ -19,6 +19,7 @@ python src/pipeline/prediction_pipeline.py
 python application.py
 
 Flask url http://127.0.0.1:9999/
+AWS EC2 URl - http://ec2-18-232-57-65.compute-1.amazonaws.com:9999/predict
 
 
 
