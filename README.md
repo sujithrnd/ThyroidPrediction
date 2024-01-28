@@ -1,10 +1,10 @@
-## End To End ML Project
+## End To End ML Project (Git -Action -Runner -Docker -AWS ECR - AWS EC2)
 
-** created a environment**
+Environemnent Createion
 conda create -p envci python==3.8
 conda activate thyro/
 
-** Install all necessary libraries**
+Install Libraries
 
 conda deactivate
 pip install -r requirements.txt
