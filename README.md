@@ -44,5 +44,8 @@ AWS EC2 URl - http://ec2-18-232-57-65.compute-1.amazonaws.com:9999/predict
 
 ![CD/CI Docker -ECr- EC2](https://github.com/sujithrnd/ThyroidPrediction/blob/main/Git_Action_Ecr_Docker_EC2_deployment.png)
 
+![image](https://github.com/user-attachments/assets/941da9ed-7ebf-439f-8259-df4703980bf5)
+
+
 
 
