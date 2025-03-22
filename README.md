@@ -1,4 +1,4 @@
-## End To End ML Project (Git -Action -Runner -Docker -AWS ECR - AWS EC2)
+## End To End Thyroid Disease Prediction ML Project (Git -Action -Runner -Docker -AWS ECR - AWS EC2)
 
 Environemnent Createion
 conda create -p envci python==3.8
