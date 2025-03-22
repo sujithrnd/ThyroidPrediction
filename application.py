@@ -3,7 +3,6 @@ from src.pipeline.prediction_pipeline import CustomData,Predictionpipeline
 
 
 application=Flask(__name__)
-
 app=application
 #http://127.0.0.1:5000/ browser url
 
